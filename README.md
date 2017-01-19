@@ -75,3 +75,18 @@ git remote add upstream <url of original repository>  >> remote connection to or
 git remote  >> names of remote repositories
 
 git remote -v  >> view remote repositories and info
+
+===========================================================
+
+Drop local changes and get fresh copy from server
+
+git fetch origin
+
+git reset --hard origin/master
+
+===========================================================
+
+Questions:
+1) When creating a branch and working on a file is it one file but each branch stores changes.
+2) push remote origin master (Here the master is the branch name on github repo?)
+3) when creating a local new branch, and I push this branch(aa-branch) using push origin aa-branch does it updqte master branch on remore rep because this branch branched off the master?
